@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  margin-top: 3rem;
+  margin-top: 5rem;
   padding: 1.2rem;
   background-color: black;
   width: 30rem;
@@ -68,4 +68,25 @@ body {
 .parca12,
 .parca16 {
   background-color: rgb(226, 161, 40);
+}
+@media (max-width:520px){
+
+.container{
+  width: 22rem;
+  height: 40rem;
+}
+.ekran{
+height: 8rem;
+
+}
+.parca{
+width: 4rem;
+height: 4rem;
+
+}
+.parca17{
+  height: 4rem;
+  width: 9rem;
+  padding-left: 2rem;
+}
 }
